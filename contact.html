@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Contact Me </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/medtime-case-study.css" rel="stylesheet"> 
+        <link href="css/mobileburger-case-study.css" rel="stylesheet">
+        <link href="bootstrap.css" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="x-icon" href="contact-favicon.png">
+        <style>
+        
+            .footer {
+                width: 100vw;
+                position: absolute;
+                top: 100vh;
+                background-color: black;
+                line-height: 20vh;
+                left: 0;
+                margin-top: 0;
+            }
+            .catch-line {
+                color: black;
+                font-size: 2rem;
+            }
+            .paragraph {
+                font-family: roboto, arial;
+                font-weight: 400;
+                line-height: 3ch;
+            }
+            .about-me {
+                display: flex;
+                width: 70vw;
+                height: calc(100vh - 100px);
+                margin-left: 15vw;
+                margin-right: 15vw;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                top: calc(60px + 1.7em);
+            }
+            .pic {
+                width: 35vw;
+                border-radius: 2vw;
+            }
+            .intro-about-me {
+                margin-right: 10vw;
+            }
+            
+            .view-prototype {
+                opacity: 1;
+                padding: 1em 2em 1em 2em;
+                margin-bottom: 2em;
+                margin-left: 0;
+                right: 0px;
+                font-weight: bold;
+                font-size: 17px;
+                background-color: white;
+                color: black;
+                border-color: rgb(0, 0, 0);
+                border-style: solid;
+                border-width: 2px;
+                border-radius: 30px;
+                transition: 0.3s cubic-bezier(.1,.53,.66,.96);
+                cursor: pointer;
+                font-family: roboto , arial;
+                margin-top: 30px;
+            }
+            .view-prototype:hover {
+                color: white;
+                background-color:#3e3190;
+                border-color: #3e3190;
+                transition:0.2s;
+                box-shadow: none;
+            }
+            .view-prototype {
+                transition:0.2s;
+            }
+            form {
+                font-family: roboto, arial;
+            }
+            .row-1 {
+                margin-top: 100px;
+            }
+            
+            .row {
+                margin-top: 15px;
+            }
+            @media (max-width: 700px) {
+                .about-me {
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    height: auto;
+                }
+                .contact {
+                    margin-top: 0;
+                    background-color: blue;
+                }
+                .intro-about-me {
+                    width: 50vw;
+                    margin-bottom: 0;
+                }
+                .intro-about-me {
+                    margin-right: 0vw;
+                    
+                }
+                .view-prototype {
+                    opacity: 1;
+                    margin-left: 0;
+                    line-height: auto;
+                    margin-bottom: 2em;
+                    right: 0px;
+                    font-weight: bold;
+                    font-size: 17px;
+                    background-color: white;
+                    color: black;
+                    border-color: rgb(0, 0, 0);
+                    border-style: solid;
+                    border-width: 1.5px;
+                    border-radius: 4rem;
+                    transition: 0.3s cubic-bezier(.1,.53,.66,.96);
+                    cursor: pointer;
+                    font-family: roboto , arial;
+                    margin-top: 30px;
+                    font-weight: 500;
+                }
+                .view-prototype:hover {
+                    color: white;
+                    background-color:#3e3190;
+                    border-color: #3e3190;
+                    transition:0.2s;
+                    box-shadow: none;
+                }
+                .view-prototype {
+                    transition:0.2s;
+                }
+                .contact-form {
+                    margin-top: 0;
+                }
+                .row-1 {
+                    margin-top: 20px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header-bar">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html"><i class="fa-solid fa-book"></i> ALICE MA</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto right-section">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">WORKS </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">ABOUT ME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="ALICE MA UX RESUME.pdf">RESUME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                      </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>  
+        <div style="margin-bottom:93px ;">
+            <div class="about-me">
+                <div class="intro-about-me">
+                    <p class="catch-line">
+                        Contact me here!
+                    </p>
+                    <p class="paragraph">
+                        alicema1202@gmail.com 
+                    </p>
+                    <p class="paragraph">
+                        415.770.2018
+                    </p>
+                    
+                </div>
+                <form class="contact-form" action="https://formsubmit.co/alicema1202@gmail.com" method="POST">
+                    <div class="row-1">
+                        <label class="required" for="name">Your name:</label><br />
+                        <input type="text" name="name" class="form-control" placeholder="Full Name" required size="30" style="height: 40px; border-radius:0.5rem;border-style:solid;border-width:1px;margin:10px 0 10px 0; padding:10px;  font-family: roboto, arial;">
+                      </div>
+                      <div class="row">
+                        <label class="required" for="name">Your email:</label><br />
+                        <input type="email" name="email" class="form-control" placeholder="Email Address" required size="30" style="height: 40px; border-radius:0.5rem;border-style:solid;border-width:1px;margin:10px 0 10px 0; padding:10px;  font-family: roboto, arial;">
+                      </div>
+                      <div class="row">
+                        <label class="required" for="name">Message:</label><br />
+                        <textarea placeholder="Write your message here..." class="form-control" name="message" rows="10" cols="30" required style="border-radius:0.5rem;border-style:solid;border-width:1px;margin:10px 0 10px 0; padding:10px; font-family: roboto, arial;"></textarea>
+                      </div>
+                        <input class="view-prototype" type="submit" value="SEND" />
+                        <input type="hidden" name="_next" value="https://alicemadesign.com/thankyou">
+                        <input type="hidden" name="_captcha" value="false">
+               </form>
+            </div>
+        </div>
+        
+        <div class="footer">
+            ©2022 Alice Ma. All Rights Reserved.
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    </body>
+</html>
